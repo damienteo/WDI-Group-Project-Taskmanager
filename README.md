@@ -1,5 +1,5 @@
 # WDI-Group-Project-TaskManager
-TaskManager is an application which helps people either source for help, or source for small jobs. It is done as part of Project 3 under General Assembly Singapore's Wed Development Immersive.<br />
+TaskManager is an application which helps people either source for help, or source for small jobs. It is done as part of Project 3 under General Assembly Singapore's Web Development Immersive.<br />
 
 This is a group project. The other two members are: https://github.com/tengchoonhong90 and https://github.com/scottosan .<br />
 
