@@ -18,16 +18,16 @@ class TaskeesController < ApplicationController
 
   def show
 
-    @taskees = Taskee.where(id: params[:id] )
-    @tasks = Task.where(id: @taskees.first.task_id)
+    @tasks = Task.where(id: params[:id])
+    @taskees = Taskee.where(task_id: params[:id], user_id: current_user.id )
+    
     
     gon.tasker = current_user.username
-    gon.taskId = @tasks.first.id
+    gon.taskId = params[:id]
 
-    @chats = Chat.where(:task_id => @tasks.first.id).order(:created_at)
+    @chats = Chat.where(:task_id => params[:id]).order(:created_at)
     @chat = Chat.new
 
-    
   end
 
   def new
@@ -42,7 +42,7 @@ class TaskeesController < ApplicationController
     @taskee = Taskee.new(taskee_params)
     @taskee.user_id = current_user.id
     if @taskee.save
-      redirect_to taskee_path(@taskee)
+      redirect_to taskees_path
     else
       render 'new'
     end 

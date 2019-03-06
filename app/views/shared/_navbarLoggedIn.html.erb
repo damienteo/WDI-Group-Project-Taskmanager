@@ -27,15 +27,11 @@
         <%= link_to "Profile", current_user %>
      </span>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Messages</a>
-      </li>
-
 
     <li class="nav-item">
         <span class="nav-link">
 		<% if user_signed_in? %>
-		  Logged in as <strong><%= current_user.username %></strong>.
+		  Logged in as <strong><%= current_user.username %></strong>
 
       <li class="nav-item justify-content-end">
         <span class="nav-link">

@@ -1,10 +1,11 @@
 <div>
+	<h1><%= foobar %></h1>s
 	<div class="mainCenter">
 
 
-	<h1 class="titleFont d-inline-block align-middle" style="margin:0;">Here are the available tasks.</h1>
+	<h1 class="titleFont d-inline-block align-middle" style="margin:0;">Showing task:</h1>
 
-	<%= render template: "components/infoOnIcons" %>
+	<%= render partial: "shared/infoOnIcons" %>
 
 		<div>
 			<% @tasks.each do |task| %>
