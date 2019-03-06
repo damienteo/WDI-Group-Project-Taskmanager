@@ -28,11 +28,11 @@ Taskmanager will provide a online and secure portal for these groups. Members fo
 
 # Instructions
 - 'Register' to create an account.
-- Under 'Entries', you can post a new entry, which uses basic provided prompts, or post new random entries, which gives you a topic by random.
-- I you wish to make your own prompts, you can choose to 'Customise Entries'.
-- You may 'Post Photo', if that helps you to cpature your feelings better.
+- Under 'Tasks', you can post a new task, with title, description, price, etc.
+- Under 'Make money', you can select Tasks from other people, and even bid.
+- Upon completion of a task by the other user, you may set the task as complete, or incomplete, and review the other user.
 
-#Pending
+# Pending
 - Optimise for mobile
 - Task sorting
 - Messages
