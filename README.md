@@ -1,44 +1,40 @@
-# taskmanager
+# WDI-Group-Project-TaskManager
+TaskManager is an application which helps people either source for help, or source for small jobs. It is done as part of Project 3 under General Assembly Singapore's Wed Development Immersive.<br />
 
-##About
-```
-Taskmanager serves two groups of people.
+This is a group project. The other two members are: https://github.com/tengchoonhong90 and https://github.com/scottosan .<br />
 
-The first group are people who have disposable income, yet find themselves having too little time to settle minor tasks.
-The second group includes people who have the capacity to help the first group for a small fee.
+ The project was created via Ruby on Rails. I was mainly in charge of the CRUD functionality for matters relating to tasks and the acceptance of tasks. Later, I also implemented a chat function using Pusher.
+
+# About
+Taskmanager serves two groups of people.<br />
+
+The first group are people who have disposable income, yet find themselves having too little time to settle minor tasks.<br />
+The second group includes people who have the capacity to help the first group for a small fee.<br />
 
 Taskmanager will provide a online and secure portal for these groups. Members for the first group will be able to post tasks on a public 'board' of sorts. Members of the second group will be able to view said tasks via a map, and apply accordingly for the task.
-```
 
-##Technical Requirements
+# Deliverables
+- A working app, built by the whole team
+- A team git repository hosted on Github, with a link to your hosted project, and frequent commits from every team member dating back to the very beginning of the project.
 
-```
-Use Ruby on Rails and Active Record to build an application
-Create an application using at least 2 related models, one of which should be a user
-Include all major CRUD functions for at least one of those models
-Craft thoughtful user stories together, as a team
-Manage team contributions and collaboration using a standard Git flow on Github
-Layout and style front-end with clean & well-formatted CSS, with or without a framework.
-Deploy application online so it's publically accessible
-```
+# Technical Specifications
+- Ruby on Rails and Active Record are used to build an application
+- Application uses 4 models (users, tasks, taskees (for applying to tasks), and reputation)
+- Includes all major CRUD functions for at user, tasks, and taskees
+- team contributions and collaboration are managed using a standard Git flow on Github
+- front-end is styled with Bootstrap
+- Authentication to restrict access to appropriate users
+- Pusher is used for allowing real-time chat between users who have agreed on a task
 
-## The app should also have:
+# Instructions
+- 'Register' to create an account.
+- Under 'Entries', you can post a new entry, which uses basic provided prompts, or post new random entries, which gives you a topic by random.
+- I you wish to make your own prompts, you can choose to 'Customise Entries'.
+- You may 'Post Photo', if that helps you to cpature your feelings better.
 
-```
-Front-end with HTML & Javascript
-Authentication to restrict access to appropriate users
-```
-
-##Necessary Deliverables
-```
-A working app, built by the whole team, hosted somewhere on the internet
-A link to your hosted working app in the URL section of your Github repo
-A team git repository hosted on Github, with a link to your hosted project, and frequent commits from every team member dating back to the very beginning of the project.
-A readme.md file with:
-Explanations of the technologies used
-A couple paragraphs about the general approach you took
-Installation instructions for any dependencies
-Link to your user stories – who are your users, what do they want, and why?
-Link to your wireframes – sketches of major views / interfaces in your application
-Descriptions of any unsolved problems or major hurdles your team had to overcome
-```
+#Pending
+- Optimise for mobile
+- Task sorting
+- Messages
+- Consistent styling
+- User profile
